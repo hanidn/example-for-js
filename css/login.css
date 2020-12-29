@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    resize: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    text-align: center;
+    border: 3px solid rgb(175, 141, 207);
+    height: 300px;
+    margin: 100 auto;
+    background-color: rgb(134, 188, 204, 0.3);
+    border-radius: 10px;
+    max-width: 1200px;
+}
+
+img {
+    width: 40px;
+    margin-top: 4px;
+    background-size: contain;
+}
+
+input[name="user"] {
+    border-radius: 1px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 25px;
+}
+
+input[name="psw"] {
+    border-radius: 1px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 25px;
+}
+
+button[type="submit"] {
+    background-color: rgb(16, 196, 16);
+    width: 80px;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+label {
+    color: rgb(48, 48, 78);
+}
+
+button [type="button"] {
+    background-color: red;
+}
+
+button[type="submit"]:hover {
+    opacity: 0.5;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(172, 33, 33);
+}
+
+@media screen and(max-width:1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and(max-width:992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and(max-width:768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and(max-width:576px) {
+    .container {
+        max-width: 100%;
+    }
+}
